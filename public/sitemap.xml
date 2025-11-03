@@ -29,7 +29,7 @@
     <loc>http://localhost:1313/tags/amazon/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025/fuckamazon/fuckamazon/</loc>
+    <loc>http://localhost:1313/fuck-amazon/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/fuck-amazon/</loc>
@@ -81,6 +81,8 @@
     <loc>http://localhost:1313/electronics-led-matrix/</loc>
   </url><url>
     <loc>http://localhost:1313/led-table-lamp/</loc>
+  </url><url>
+    <loc>http://localhost:1313/lil-lamb/</loc>
   </url><url>
     <loc>http://localhost:1313/music/</loc>
   </url><url>

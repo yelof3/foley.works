@@ -6,3 +6,11 @@ li{
     margin: 10px 0;
 }
 
+video {
+  border-radius: 50%;
+  padding-left: 52px;
+}
+
+.plyr__controls .plyr__play {
+    display: none;
+}

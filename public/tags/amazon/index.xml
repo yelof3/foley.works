@@ -10,10 +10,10 @@
     <atom:link href="http://localhost:1313/tags/amazon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fuck Amazon</title>
-      <link>http://localhost:1313/posts/2025/fuckamazon/fuckamazon/</link>
+      <link>http://localhost:1313/fuck-amazon/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025/fuckamazon/fuckamazon/</guid>
-      <description>&lt;p&gt;Fuck Amazon. Seriously. But more specifically, fuck Jeff Bezos.&lt;/p&gt;&#xA;&lt;p&gt;There are many, many reasons to hate Amazon, and Jeff Bezos. I tend to focus on worker and vendor conditions, and the fact that in his ideal world (which we’re quickly heading towards), he would barely be employing any humans at all.  But really, take your pick from a long list of very good reasons across any of his business properties. Don’t even get me started on the Washington Post or the new Alexa security issues–topics for future blog posts, perhaps.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/fuck-amazon/</guid>
+      <description>&lt;p&gt;Fuck Amazon. Seriously. But more specifically, fuck Jeff Bezos.&lt;/p&gt;&#xA;&lt;p&gt;There are many, many reasons to hate Amazon, and Jeff Bezos. I tend to focus on worker and vendor conditions, and the fact that in his ideal world &lt;a href=&#34;https://www.mercurynews.com/2025/10/23/amazon-replacing-employees-with-robots/&#34; title=&#34;Link to article about Amazon planning to replace up to 600,000 human workers with robots&#34;&gt;(which we’re quickly heading towards)&lt;/a&gt;, he would barely be employing any humans at all.  But really, take your pick from a long list of very good reasons across any of his business properties. Don’t even get me started on the Washington Post or the new Alexa security issues–topics for future blog posts, perhaps.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
