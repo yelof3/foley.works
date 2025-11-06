@@ -30,4 +30,4 @@ From there, I added an INMP441 I2S microphone, and to top it off, some faux fur 
   });
 </script>
 
-This lil' lamb will likely be auctioned off to some lucky bidder at an upcoming flocktion for Wooly Fair. They'll be able to find the custom json mapping [here](https://github.com/yelof3/lil-lamb "link to lil' lamb WLED .json map").
+This lil' lamb will likely be auctioned off to some lucky bidder at an upcoming flocktion for [Wooly Fair](https://foley.works/wooly-fair/ "link to Wooly Fair page"). They'll be able to find the custom json mapping [here](https://github.com/yelof3/lil-lamb "link to lil' lamb WLED .json map").
