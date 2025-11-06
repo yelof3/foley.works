@@ -24,3 +24,10 @@ From there, I added an INMP441 I2S microphone, and to top it off, some faux fur 
 <video id="player" playsinline controls data-poster="/static/images/lil-lamb-back.jpg">
   <source src="/videos/lil-lamb3.mp4" type="video/mp4" />
 </video>
+<script>
+  const player = new Plyr('#player', {
+    controls: [] // no controls will be shown
+  });
+</script>
+
+This lil' lamb will likely be auctioned off to some lucky bidder at an upcoming flocktion for Wooly Fair. They'll be able to find the custom json mapping [here](https://github.com/yelof3/lil-lamb "link to lil' lamb WLED .json map").
