@@ -27,6 +27,8 @@ Occasionally, I'll read a book. They're mostly about modern physics, although oc
 
 - *Nick Herbert: Quantum Reality (2nd read)*
 
+- *Marcia Bartusiak: Black Hole*
+
 
 # 2023
 

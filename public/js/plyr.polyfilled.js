@@ -11,3 +11,4 @@ import 'custom-event-polyfill';
 import 'url-polyfill';
 
 export default Plyr;
+
