@@ -6,24 +6,77 @@ li{
     margin: 10px 0;
 }
 
+/* === Outer Circle Container === */
 .video-container {
   position: relative;
   width: 100%;
   max-width: 700px;
-  border-radius: 50%;
-  height: 0;
-  padding-bottom: 100%; /* 16:9 aspect ratio — change if your video uses another ratio */
+  aspect-ratio: 1 / 1;        /* ensures perfect square */
+  border-radius: 50%;         /* makes it a circle */
   overflow: hidden;
-  background: #000; /* optional, makes black bars look better */
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Center alignment fix */
+  margin-inline: auto;       /* horizontally center like an <img> */
+  display: block;            /* ensures margin:auto works properly */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.video-container video {
-  position: absolute;
+/* === Plyr wrapper overrides === */
+.video-container .plyr {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Override Plyr’s 16:9 wrapper */
+.video-container .plyr__video-wrapper {
+  position: absolute !important;
   top: 0;
   left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* === Video fills the circular frame === */
+.video-container video {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* or "contain" if you prefer to show all content */
-  border-radius: 0; /* optional: match your site’s style */
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* === Controls stay within the circle === */
+.video-container .plyr__controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 0 0 50% 50%;
+  overflow: hidden;
+  padding: 0.5em 1em;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+}
+
+/* Optional: center control icons better */
+.video-container .plyr__controls button {
+  color: #fff;
+}
+
+.video-container .plyr__controls .plyr__progress__container,
+.video-container .plyr__controls .plyr__volume {
+  flex: 1;
 }
 
