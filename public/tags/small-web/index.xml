@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Small Web on foley.works</title>
+    <link>http://localhost:1313/tags/small-web/</link>
+    <description>Recent content in Small Web on foley.works</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/small-web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Small Web</title>
+      <link>http://localhost:1313/small-web/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/small-web/</guid>
+      <description>&lt;p&gt;As mentioned in my about page, this site was born from the ashes of my Wordpress website. I&amp;rsquo;ve been slowly editing it and adding additional content over the last six months or so, and it&amp;rsquo;s been a joy.&lt;/p&gt;&#xA;&lt;p&gt;After a few weeks under the belt, I felt confident enough in the build to share the news of the new static site on my Mastodon account. Someone replied with &amp;ldquo;welcome to the small web&amp;rdquo;, and I&amp;rsquo;ve thought about that greeting on multiple occasions. Not so much the greeting, but the term, &amp;lsquo;small web&amp;rsquo;. Sounded like a nice place to be!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

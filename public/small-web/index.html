@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #6666ff;
+            --font-size: 1.1rem;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>The Small Web</title>
+    <meta name="description" content="I was welcomed to the &#39;small web&#39; recently, which felt nice and led to some thoughts.">
+    <meta name="keywords" content='blog, small web, hugo, gokarna, fediverse, blogging'>
+
+    <meta property="og:url" content="http://localhost:1313/small-web/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The Small Web">
+    <meta property="og:description" content="I was welcomed to the &#39;small web&#39; recently, which felt nice and led to some thoughts.">
+    <meta property="og:image" content="http://localhost:1313/static/images/AI-slop.jpg">
+    <meta property="og:image:secure_url" content="http://localhost:1313/static/images/AI-slop.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Small Web">
+    <meta name="twitter:description" content="I was welcomed to the &#39;small web&#39; recently, which felt nice and led to some thoughts.">
+    <meta property="twitter:domain" content="http://localhost:1313/small-web/">
+    <meta property="twitter:url" content="http://localhost:1313/small-web/">
+    <meta name="twitter:image" content="http://localhost:1313/static/images/AI-slop.jpg">
+
+    
+    <link rel="canonical" href="http://localhost:1313/small-web/">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.70293498aa96b2dbb767ec11a622eb2266d8fc37a0fff88233a82952e3c72b15.js" integrity="sha256-cCk0mKqWstu3Z&#43;wRpiLrImbY/Deg//iCM6gpUuPHKxU="></script>
+
+    
+    
+
+<script type="text/javascript">
+  window.heapReadyCb=window.heapReadyCb||[],window.heap=window.heap||[],heap.load=function(e,t){window.heap.envId=e,window.heap.clientConfig=t=t||{},window.heap.clientConfig.shouldFetchServerConfig=!1;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://cdn.us.heap-api.com/config/"+e+"/heap_config.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(a,r);var n=["init","startTracking","stopTracking","track","resetIdentity","identify","getSessionId","getUserId","getIdentity","addUserProperties","addEventProperties","removeEventProperty","clearEventProperties","addAccountProperties","addAdapter","addTransformer","addTransformerFn","onReady","addPageviewProperties","removePageviewProperty","clearPageviewProperties","trackPageview"],i=function(e){return function(){var t=Array.prototype.slice.call(arguments,0);window.heapReadyCb.push({name:e,fn:function(){heap[e]&&heap[e].apply(heap,t)}})}};for(var p=0;p<n.length;p++)heap[n[p]]=i(n[p])};
+  heap.load("3635405329");
+</script>  
+</head>
+
+// css
+<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="http://localhost:1313/">
+                <img src='/images/orangephoto.jpg' alt="avatar">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="http://localhost:1313/">foley.works</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/" aria-label="" > Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/about" aria-label="" > About </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/music/" aria-label="" > Music </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/electronics/" aria-label="" > Electronics </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/posts/" aria-label="" > Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/yelof3" aria-label="github" >  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/tags/" aria-label="" > Tags </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/" > Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/about" > About </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/music/" > Music </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/electronics/" > Electronics </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/posts/" > Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/yelof3" >  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/tags/" > Tags </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>The Small Web</h1>
+
+        
+
+        
+	
+	
+	
+	
+        
+
+	
+
+	
+
+	
+          <small role="doc-subtitle">I was welcomed to the &#39;small web&#39; recently, which felt nice and led to some thoughts.</small>
+	
+
+	
+          <p class="post-date">
+              
+
+              November 19, 2025
+
+              
+          </p>
+	
+
+        <ul class="post-tags">
+          
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/blog">blog</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/small-web">small web</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/hugo">hugo</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/gokarna">gokarna</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/fediverse">fediverse</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/blogging">blogging</a></li>
+           
+         
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>As mentioned in my about page, this site was born from the ashes of my Wordpress website. I&rsquo;ve been slowly editing it and adding additional content over the last six months or so, and it&rsquo;s been a joy.</p>
+<p>After a few weeks under the belt, I felt confident enough in the build to share the news of the new static site on my Mastodon account. Someone replied with &ldquo;welcome to the small web&rdquo;, and I&rsquo;ve thought about that greeting on multiple occasions. Not so much the greeting, but the term, &lsquo;small web&rsquo;. Sounded like a nice place to be!</p>
+<h2 id="what-is-the-small-web">What is the Small Web?</h2>
+<p>I had to look into the term, and found that it describes (for the most part) small, noncommercial, personal static websites that harken back to the earlier days of the internet. Now we&rsquo;re really talking! <a href="https://benhoyt.com/writings/the-small-web-is-beautiful/" title="link to post by Ben Hoyt on the small web">This post</a> from 2021 by Ben Hoyt is often linked to when talking about the meaning of &rsquo;the small web&rsquo;, and for good reason. The summary of the post, from Ben:</p>
+<blockquote>
+<p>I believe that small websites are compelling aesthetically, but are also important to help us resist selling our souls to large tech companies. In this essay I present a vision for the “small web” as well as the small software and architectures that power it. Also, a bonus rant about microservices.</p></blockquote>
+<h2 id="what-the-small-web-means-to-me">What the Small Web Means to Me</h2>
+<p>When I first started accessing the internet, circa 1995, it was open but pretty small, and wild wild west-y. It had yet to be consumerized, and unless you had the chops, it was rather difficult to create a website and put it live on the internet. I certainly didn&rsquo;t have the chops back then.</p>
+<p>Blogging platforms and social media networks allowed people with no coding experience to publish things on the internet. I never joined the Myspace platform, but I did create a blog to showcase some of the weird and creative music I listen to.</p>
+<p>I happened upon a blog by Dj/Rupture, and saw that he had a friends/links section with links to his friends&rsquo; and colleagues&rsquo; website or blog links. They also maintained links sections, and they all frequently referred to each other and linked to each other&rsquo;s content.</p>
+<p>The essence of those connections is a big part of my ideal of the &lsquo;small web&rsquo;. I hate that we&rsquo;ve ended up with a massive social media company that profits off of each of our interactions, and wish that the masses maintained their own special place on the internet, whether that be a blog, or a small website. And I wish that we all linked thoughtfully to each other&rsquo;s spots on the web.</p>
+<h2 id="hurdles">Hurdles</h2>
+<p>Why don&rsquo;t more people join this &lsquo;small web&rsquo; shangri la? I see a few major hurdles preventing that from happening.</p>
+<h3 id="skills">Skills</h3>
+<p>I&rsquo;ll admit that it does take a (very learnable) set of skills to set up a personal spot on the internet that isn&rsquo;t attached to a massive tech company. One of the big appeals to social media platforms is that they avoid the requirement of learning those skills. But these are skills worth having, and as time goes on, we see that statement bearing true in more and more ways, as we learn about what these social media companies are willing to do to capitalize on our engagement.</p>
+<h3 id="the-word">The Word</h3>
+<p>It&rsquo;s tough spreading the word about small web alternatives without a marketing budget! Often times these alternatives are non-profit organizations or otherwise collections of regular folk joining together to build a great platform. So the marketing dollars are slim to none, and of course that&rsquo;s tough to bring to an advertising marketplace where Facebook/Meta, for example, is spending billions annually on advertising.</p>
+<h2 id="benefits">Benefits</h2>
+<p>I see many benefits to all of us developing a space on the internet that we control, and that isn&rsquo;t affiliated with a big company desperate for our data. Here are a few things I appreciate about the small web.</p>
+<h3 id="speed">Speed</h3>
+<p>Site speed: I knew this new static site would be quicker than my old Wordpress site, but I had no idea it would be <em><strong>this</strong></em> much quicker. I&rsquo;ve even slowed it down with a little javascript for audio and video, and it still smokes my last iteration of the site on Wordpress.</p>
+<h3 id="security">Security</h3>
+<p>This site is much more secure than my old Wordpress installation, which depended on some plugins. I&rsquo;ve awlays been careful with which plugins I use, but after my site&rsquo;s host lagged with php updates, I got a little sloppy and downloaded a plugin that really did it in.</p>
+<h3 id="price">Price</h3>
+<p>It turns out that saving our souls from the big tech companies isn&rsquo;t that expensive! This site for example, being deployed through GitHub, is free to host, so I just have my annual domain renewal fee.</p>
+<p>It&rsquo;ll always be an uphill battle, but I&rsquo;d love to convince a friend or two over to the small web. I think they&rsquo;d be very happy.</p>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+            
+                <nav aria-label="Post navigation" class="post-navigation">
+    
+    <div class="prev-post">
+        <p>
+            <a href="/ai-slop/">
+                &#8592;
+                Previous:
+                AI Slop
+            </a>
+        </p>
+        <p class="prev-post-date">
+            October 24, 2025
+        </p>
+    </div>
+    
+
+    
+</nav>
+
+            
+        
+    </div>
+
+    
+    
+    
+</div>
+
+
+
+    
+
+
+
+
+
+        </main><footer class="footer">
+    
+    
+
+    
+
+    
+
+    
+     <span>
+        Made with &#9749;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

@@ -16,6 +16,7 @@ Occasionally, I'll read a book. They're mostly about modern physics, although oc
 - *Lee Smolin: Three Roads to Quantum Gravity*
 
 - *Terence McKenna: The Archaic Revival*
+- *Lisa Randall: Dark Matter and the Dinosaurs*
 
 ## 2024
 
@@ -41,6 +42,7 @@ Occasionally, I'll read a book. They're mostly about modern physics, although oc
 # 2022
 - *Carlo Rovelli: Reality is not What it Seems*
 - *Sabine Hossenfelder: Lost in Math*
+- *John Lurie: The History of Bones*
 
 # 2021
 - *Carlo Rovelli: The Order of Time*
