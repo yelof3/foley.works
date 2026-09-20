@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #6666ff;
+            --font-size: 1.1rem;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>A Review of the Hugo Framework</title>
+    <meta name="description" content="My review of Hugo after building three sites in year">
+    <meta name="keywords" content='hugo, small web, blog, blogging'>
+
+    <meta property="og:url" content="http://localhost:1313/hugo/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="A Review of the Hugo Framework">
+    <meta property="og:description" content="My review of Hugo after building three sites in year">
+    <meta property="og:image" content="http://localhost:1313/static/images/revbilly.jpg">
+    <meta property="og:image:secure_url" content="http://localhost:1313/static/images/revbilly.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="A Review of the Hugo Framework">
+    <meta name="twitter:description" content="My review of Hugo after building three sites in year">
+    <meta property="twitter:domain" content="http://localhost:1313/hugo/">
+    <meta property="twitter:url" content="http://localhost:1313/hugo/">
+    <meta name="twitter:image" content="http://localhost:1313/static/images/revbilly.jpg">
+
+    
+    <link rel="canonical" href="http://localhost:1313/hugo/">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.70293498aa96b2dbb767ec11a622eb2266d8fc37a0fff88233a82952e3c72b15.js" integrity="sha256-cCk0mKqWstu3Z&#43;wRpiLrImbY/Deg//iCM6gpUuPHKxU="></script>
+
+    
+    
+
+<script type="text/javascript">
+  window.heapReadyCb=window.heapReadyCb||[],window.heap=window.heap||[],heap.load=function(e,t){window.heap.envId=e,window.heap.clientConfig=t=t||{},window.heap.clientConfig.shouldFetchServerConfig=!1;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://cdn.us.heap-api.com/config/"+e+"/heap_config.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(a,r);var n=["init","startTracking","stopTracking","track","resetIdentity","identify","getSessionId","getUserId","getIdentity","addUserProperties","addEventProperties","removeEventProperty","clearEventProperties","addAccountProperties","addAdapter","addTransformer","addTransformerFn","onReady","addPageviewProperties","removePageviewProperty","clearPageviewProperties","trackPageview"],i=function(e){return function(){var t=Array.prototype.slice.call(arguments,0);window.heapReadyCb.push({name:e,fn:function(){heap[e]&&heap[e].apply(heap,t)}})}};for(var p=0;p<n.length;p++)heap[n[p]]=i(n[p])};
+  heap.load("3635405329");
+</script>  
+</head>
+
+// css
+<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="http://localhost:1313/">
+                <img src='/images/orangephoto.jpg' alt="avatar">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="http://localhost:1313/">foley.works</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/" aria-label="" > Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/about" aria-label="" > About </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/music/" aria-label="" > Music </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/electronics/" aria-label="" > Electronics </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/posts/" aria-label="" > Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/yelof3" aria-label="github" >  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/tags/" aria-label="" > Tags/Links </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/" > Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/about" > About </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/music/" > Music </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/electronics/" > Electronics </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/posts/" > Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/yelof3" >  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/tags/" > Tags/Links </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>A Review of the Hugo Framework</h1>
+
+        
+
+        
+	
+	
+	
+	
+        
+
+	
+
+	
+
+	
+          <small role="doc-subtitle">My review of Hugo after building three sites in year</small>
+	
+
+	
+          <p class="post-date">
+              
+
+              August 18, 2026
+
+              
+          </p>
+	
+
+        <ul class="post-tags">
+          
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/hugo">hugo</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/small-web">small web</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/blog">blog</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/blogging">blogging</a></li>
+           
+         
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>I learned of <a href="https://gohugo.io" title="link to the official Hugo website">Hugo</a> from the fine folks on Mastodon after inquiring about options post Wordpress. I&rsquo;m sure I went to the previously linked website and saw this, their tagline:</p>
+<blockquote>
+<p>The world’s fastest framework for building websites</p></blockquote>
+<p>I remember thinking, hm, I can get a Wordpress website up pretty quickly. Certainly quicker than the time it took me to get my first Hugo site (this one) up and running.</p>
+<p>But with the bumps and bruises of getting this site up, I developed a certain level of comfort and familiarity with the installation process, file structure, and so on. That lead to my <a href="https://foleystoneworks.com" title="link to the Foley Stoneworks website">second Hugo site</a> being completed in a night. While just starter theme that I&rsquo;ve yet to customze, the third Hugo site I made was up on the web in a few hours.</p>
+<p><img src="/images/revbilly.jpg" alt="Reverend Billy"></p>
+<ul>
+<li>
+<p><strong>Upbringing</strong>: I was raised in a <em>very</em> Irish Catholic home. Like, go to every mass during Holy Week type of Irish Cahtolics. Anyway, my mom detested the consumerism that came along with Christmas, and over the years, that definitely trickled down to me. And perhaps it was from her being raised at just after the great depression, but Along with that, she also was someone who hated to waste things. In our family, we stopped using things because they were no longer useful, not becasue they fell out of style. That wasn&rsquo;t the easiest growing up, but looking back, I&rsquo;m very glad I was brought up that way.</p>
+</li>
+<li>
+<p><strong>The Uninportance of the Joneses</strong>: Other than when I was 8 and my parents didn&rsquo;t let me get parachute pants like all my friends at the time, I&rsquo;ve never really felt the urge to keep up with the Joneses. In fact, seeing the behavior was rather repulsing to me. The important things to me are family, friendship, love, trust, learning, fun, art, and so on. That&rsquo;s what I care about: the good stuff that you can never put a price on. I couldn&rsquo;t care any less about being seen somehwere, in some particular car, in some particular outfit, with some group of people. While it undoubtedly took a bit of time after the parachute pants fiasco to feel this way, nowadays I just don&rsquo;t care much about how I appear to others.</p>
+</li>
+<li>
+<p>Speaking of particular outfits - not caring about fashion makes it really easy to get a <em>ton</em> of miles and value out of items of clothes. Ollie holes in my Chucks, rips in my jeans, etc&ndash;easily patchable, or apparel wounds of glory. One might even call my anti-fashion stance and well-worn clothes as &lsquo;punk&rsquo;. While I&rsquo;m spiritually a punk, I&rsquo;ve never wrapped myself up in the fashion of punk. But you know what annoyed me more than anything? When retailers like Hot Topic started selling jeans with <em>pre-made</em> holes in them. How pathetic and backwards, on both sides of the coin. Or like when Nirvana made old flannel shirts popular: What they were doing was very much <strong>not</strong> keeping up with the Joneses, but what happened afterward was that a bunch of kids bought new, overpriced flannel shirts that hit the market as a result of Nirvana. When punk gets bottled up onto a Hot Topic shelf, it&rsquo;s no longer punk, kids.</p>
+</li>
+<li>
+<p><strong>Ethics</strong>: In case you haven&rsquo;t noticed, <a href="https://www.theguardian.com/environment/2026/feb/11/point-of-no-return-hothouse-earth-global-heating-climate-tipping-points" title="link to a Guardian article on the global warming tipping point">the world is burning</a>. Managers of capitalists systems simply don&rsquo;t care about the future of humanity or lots of other life on this planet, and are going to ride that inferno until the end. As consumers (or anti-consumers!), we have a say in the trajectory of this seemingly unavoidable peril. While it&rsquo;s true that the biggest changes that can be made to address this issue are in the realms of national law, and industrial regulation, there are things that us tiny people can do that can make an impact. Some examples:</p>
+<ul>
+<li><em>rejection of fast fashion, mending</em></li>
+<li><em>holiday present truces</em></li>
+<li><em>using more public transportation</em></li>
+<li><em>biycles</em></li>
+<li><em>political involvement</em></li>
+<li></li>
+</ul>
+</li>
+</ul>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+            
+                <nav aria-label="Post navigation" class="post-navigation">
+    
+    <div class="prev-post">
+        <p>
+            <a href="/wheel-it-up-make-it-glow/">
+                &#8592;
+                Previous:
+                Wheel it up and Make it Glow
+            </a>
+        </p>
+        <p class="prev-post-date">
+            January 17, 2026
+        </p>
+    </div>
+    
+
+    
+</nav>
+
+            
+        
+    </div>
+
+    
+    
+    
+</div>
+
+
+
+    
+
+
+
+
+
+        </main><footer class="footer">
+    
+    
+
+    
+
+    
+
+    
+     <span>
+        Made with &#9749;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

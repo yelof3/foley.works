@@ -1,15 +1,25 @@
 ---
-title: "Stop Shopping"
-date: 2026-07-21
-description: "Stop shopping. Avoid the Shopocalypse. Changealujah!"
-image: "/images/revbilly.jpg"
-type: "post"
-tags: ["capitalism","consumerism", "blog"]
-url: /stop-shopping
+title: A Review of the Hugo Framework
+date: 2026-08-18
+description: My review of Hugo after building three sites in year
+image: /static/images/revbilly.jpg
+type: post
+tags:
+    - hugo
+    - small web
+    - blog
+    - blogging
+url: /hugo
 draft: true
 ---
 
-I learned of the legend of [Reverend Billy and the Church of Stop Shopping](https://revbilly.com "link to Reverend Billy website")  on one of my first trip to Burning Man, and I instantly knew that this was the 'congregation' for me. But I always wondered why, out of all of my friends, it was only me who felt this appeal to [the message](https://en.wikipedia.org/wiki/Reverend_Billy_and_the_Church_of_Stop_Shopping "link to Reverend Billy wikipedia page"). 
+I learned of [Hugo](https://gohugo.io "link to the official Hugo website") from the fine folks on Mastodon after inquiring about options post Wordpress. I'm sure I went to the previously linked website and saw this, their tagline: 
+
+> The world’s fastest framework for building websites
+
+I remember thinking, hm, I can get a Wordpress website up pretty quickly. Certainly quicker than the time it took me to get my first Hugo site (this one) up and running. 
+
+But with the bumps and bruises of getting this site up, I developed a certain level of comfort and familiarity with the installation process, file structure, and so on. That lead to my [second Hugo site](https://foleystoneworks.com "link to the Foley Stoneworks website") being completed in a night. While just starter theme that I've yet to customze, the third Hugo site I made was up on the web in a few hours. 
 
 ![Reverend Billy](/images/revbilly.jpg)
 

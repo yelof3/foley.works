@@ -1,0 +1,109 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "post",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Image",
+          "name": "image",
+          "type": "image"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "URL",
+          "name": "url",
+          "type": "string"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Content type",
+          "name": "type",
+          "type": "string",
+          "default": "post",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "name": "page",
+      "pageBundle": true,
+      "defaultFileName": "index",
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Image",
+          "name": "image",
+          "type": "image"
+        },
+        {
+          "title": "URL",
+          "name": "url",
+          "type": "string"
+        },
+        {
+          "title": "Content type",
+          "name": "type",
+          "type": "string",
+          "default": "page",
+          "hidden": true
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Pages",
+      "path": "[[workspace]]/content",
+      "excludePaths": [
+        "posts"
+      ],
+      "contentTypes": [
+        "page"
+      ]
+    },
+    {
+      "title": "Posts",
+      "path": "[[workspace]]/content/posts",
+      "contentTypes": [
+        "post"
+      ]
+    }
+  ],
+  "frontMatter.git.enabled": true
+}
