@@ -230,18 +230,19 @@
     <div class="post-content">
         <img src="/images/hugo-logo.png" alt="Diagram" class="no-radius" width="400" height="400">
 <h2 id="my-first-experiences-with-hugo-static-site-generator">My First Experiences with Hugo Static Site Generator</h2>
-<p>I learned about <a href="https://gohugo.io" title="link to the official Hugo website">Hugo</a> and what a static site was from the fine folks on Mastodon after inquiring about options post-Wordpress. I&rsquo;m sure I went to the previously linked website and saw this, their tagline:</p>
+<p>I learned about the open source framework <a href="https://gohugo.io" title="link to the official Hugo website">Hugo</a> and what a static site was from the fine folks on Mastodon after inquiring about options post-Wordpress. I&rsquo;m sure I went to the previously linked website and saw this, their tagline:</p>
 <blockquote>
 <p><em>The world’s fastest framework for building websites</em></p></blockquote>
 <p>I remember thinking, hm, I can get a Wordpress website up pretty quickly. Certainly quicker than the time it took me to get my first Hugo site (this one) up and running.</p>
+<img src="/images/hm.png" alt="bagel boy character saying 'hm'">
 <p>But with the bumps and bruises of getting this site up, I developed a certain level of comfort and familiarity with the installation process, file structure, and so on. That lead to my <a href="https://foleystoneworks.com" title="link to the Foley Stoneworks website">second Hugo site</a> being completed in a night. While just starter theme that I&rsquo;ve yet to customze, the third Hugo site I made was up on the web in a few hours.</p>
 <h2 id="things-i-love-about-bulding-static-websites-with-hugo">Things I Love about Bulding Static Websites with Hugo</h2>
 <p>Here&rsquo;s what I love about building static websites. I just so happened to have ended up trying Hugo and liking it, but from what I&rsquo;ve read, Astro and Jekyll are fine static site generators, and I&rsquo;m sure there are others out there. I have to assume the bulleted characteristics below apply to them just as well, too.</p>
 <ul>
-<li><strong>Simplicity</strong>: Hey neat! There&rsquo;s my website files, right there in that folder in the &lsquo;websites&rsquo; folder on my hard drive. Sweet, I can use a basic code editing program to edit the files and update my website to Github. Sure, using Studio Visual Vode and a CLI isn&rsquo;t the sexiest setup in the world, and at least out of the box isn&rsquo;t a WYSIWYG building experience, but it&rsquo;s just <em>so simple</em>. Here&rsquo;s what I look at in Visual Studio Code. It&rsquo;s pretty easy to pick a file, edit some markdown, and save.</li>
-</ul>
-<img src="/images/website-file-structure.png" alt="Diagram" class="no-radius">
-<ul>
+<li>
+<p><strong>Simplicity</strong>: Hey neat! There&rsquo;s my website files, right there in that folder in the &lsquo;websites&rsquo; folder on my hard drive. Sweet, I can use a basic code editing program to edit the files and update my website to Github. Sure, using Studio Visual Vode and a CLI isn&rsquo;t the sexiest setup in the world, and at least out of the box isn&rsquo;t a WYSIWYG building experience, but it&rsquo;s just <em>so simple</em>. Here&rsquo;s what I look at in Visual Studio Code. It&rsquo;s pretty easy to pick a file, edit some markdown, and save.
+<img src="/images/website-file-structure.png" alt="hugo website file structure" class="no-radius"></p>
+</li>
 <li>
 <p><strong>Speed</strong>: It&rsquo;s tough to get a full understanding of how quick you can build a static website until you actually get the hang of it. I&rsquo;ve been using themes, which let me start with a full, ready to go website with filler content that I can edit to my preferences. Once some familiarity with Hugo is there, it takes little time to get a new installation going, edit a page or two, edit the hugo.toml file and a few other items here and there, and it&rsquo;s off to the races. On the last website I made, I had the bare theme up and running within 30 minutes, and had a full website built in just a few hours.</p>
 </li>
@@ -256,8 +257,11 @@
 </li>
 <li>
 <p><strong>Customization</strong>: While I&rsquo;ve been leaning on themes so far, it&rsquo;s been easy to learn the Hugo framework, and with that I can see a clearer path forward if I wish to take my Hugo development to the next step.</p>
-<p>One customization I made today was not to my theme, with the Front Matter extension. This essentially acts as CMS right within Visual Studio Code, but at least with this initial review, i&rsquo;m not too sure it&rsquo;s going to save me a bunch of time. It does have a nice server preview feature that I&rsquo;m going to see if I can set up on a split panel view- will let you know how that goes, and if I see more value from it than just having http://localhost:1313 open on my browser.</p>
+<p>One customization I made today was not to my theme, with the Front Matter extension. This essentially acts as CMS right within Visual Studio Code, but at least with this initial review, i&rsquo;m not too sure it&rsquo;s going to save me a bunch of time. It does have a nice server preview feature that I&rsquo;m going to see if I can set up on a split panel view- will let you know how that goes, and if I see more value from it than just having http://localhost:1313 open on my browser. After a few tests, I&rsquo;m finding running &lsquo;hugo serve&rsquo; from the Terminal gets me slightly better results, for whatever reason. So I may just stick with that old habit, which really isn&rsquo;t a hinderance.</p>
 <p>Another nice feature of the Front Matter extension is some rudimentary SEO data to aid you in forming posts, as well as an option to commit straight from within the extension. Again, not the biggest help in the world, but nice to know it&rsquo;s there if you prefer to keep as much to one tab as possible.</p>
+</li>
+<li>
+<p><strong>Security</strong>: Static websites, by nature, are much more secure than a dynamic website like Wordpress websites. HTTP request out, HTTP response back. Easy peasy. So, A static site avoids several levels found in Wordpress sites that can introduce vulnerability: PHP, any plugins uploaded to the property, and server-side processing, to name a few.</p>
 </li>
 </ul>
 
@@ -271,14 +275,14 @@
     
     <div class="prev-post">
         <p>
-            <a href="/stop-shopping/">
+            <a href="/wheel-it-up-make-it-glow/">
                 &#8592;
                 Previous:
-                Stop Shopping
+                Wheel it up and Make it Glow
             </a>
         </p>
         <p class="prev-post-date">
-            July 21, 2026
+            January 17, 2026
         </p>
     </div>
     

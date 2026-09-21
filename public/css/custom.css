@@ -83,3 +83,7 @@ li{
 .video-container .plyr__controls .plyr__volume {
   flex: 1;
 }
+
+a {
+    color: #c4bad0;
+}
