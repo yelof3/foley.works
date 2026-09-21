@@ -1,41 +1,53 @@
 ---
-title: A Review of the Hugo Framework
-date: 2026-08-18
-description: My review of Hugo after building three sites in year
-image: /static/images/revbilly.jpg
+title: Using Hugo the Static Site Generator
+date: 2026-09-20
+description: In my first year of using Hugo as a static site generator, I built three static websites. Here are my thoughts so far.
+image: /images/hugo-logo.png
 type: post
 tags:
     - hugo
     - small web
     - blog
     - blogging
-url: /hugo
-draft: true
+url: /hugo-static-site-generator
+draft: false
+keywords:
+    - hugo
+    - static site
+    - static site generator
+    - static website
 ---
 
-I learned of [Hugo](https://gohugo.io "link to the official Hugo website") from the fine folks on Mastodon after inquiring about options post Wordpress. I'm sure I went to the previously linked website and saw this, their tagline: 
+<img src="/images/hugo-logo.png" alt="Diagram" class="no-radius" width="400" height="400">
 
-> The world’s fastest framework for building websites
+## My First Experiences with Hugo Static Site Generator
+I learned about [Hugo](https://gohugo.io "link to the official Hugo website") and what a static site was from the fine folks on Mastodon after inquiring about options post-Wordpress. I'm sure I went to the previously linked website and saw this, their tagline: 
+
+> *The world’s fastest framework for building websites*
 
 I remember thinking, hm, I can get a Wordpress website up pretty quickly. Certainly quicker than the time it took me to get my first Hugo site (this one) up and running. 
 
 But with the bumps and bruises of getting this site up, I developed a certain level of comfort and familiarity with the installation process, file structure, and so on. That lead to my [second Hugo site](https://foleystoneworks.com "link to the Foley Stoneworks website") being completed in a night. While just starter theme that I've yet to customze, the third Hugo site I made was up on the web in a few hours. 
 
-![Reverend Billy](/images/revbilly.jpg)
+## Things I Love about Bulding Static Websites with Hugo
+Here's what I love about building static websites. I just so happened to have ended up trying Hugo and liking it, but from what I've read, Astro and Jekyll are fine static site generators, and I'm sure there are others out there. I have to assume the bulleted characteristics below apply to them just as well, too. 
+
+- **Simplicity**: Hey neat! There's my website files, right there in that folder in the 'websites' folder on my hard drive. Sweet, I can use a basic code editing program to edit the files and update my website to Github. Sure, using Studio Visual Vode and a CLI isn't the sexiest setup in the world, and at least out of the box isn't a WYSIWYG building experience, but it's just *so simple*. Here's what I look at in Visual Studio Code. It's pretty easy to pick a file, edit some markdown, and save. 
+
+<img src="/images/website-file-structure.png" alt="Diagram" class="no-radius">
 
 
+- **Speed**: It's tough to get a full understanding of how quick you can build a static website until you actually get the hang of it. I've been using themes, which let me start with a full, ready to go website with filler content that I can edit to my preferences. Once some familiarity with Hugo is there, it takes little time to get a new installation going, edit a page or two, edit the hugo.toml file and a few other items here and there, and it's off to the races. On the last website I made, I had the bare theme up and running within 30 minutes, and had a full website built in just a few hours. 
 
-- **Upbringing**: I was raised in a *very* Irish Catholic home. Like, go to every mass during Holy Week type of Irish Cahtolics. Anyway, my mom detested the consumerism that came along with Christmas, and over the years, that definitely trickled down to me. And perhaps it was from her being raised at just after the great depression, but Along with that, she also was someone who hated to waste things. In our family, we stopped using things because they were no longer useful, not becasue they fell out of style. That wasn't the easiest growing up, but looking back, I'm very glad I was brought up that way.
+- **Aesthetics**: From what I can tell, [Hugo's themes](https://themes.gohugo.io "link to the themes section of the Hugo website") are quite nice! I love how a lot of them look, they're all lightning quick, and respond perfectly. Here are the three themes that I have worked with so far: 
+    - *[Gokarna](https://themes.gohugo.io/themes/gokarna/ "link to the Gokarna theme on the Hugo website")*
+    - *[Story](https://themes.gohugo.io/themes/hugo-story/ "link to the Story theme on the Hugo website")*
+    - *[Mana](https://themes.gohugo.io/themes/hugo-mana-theme/ "link to the Mana theme on the Hugo website")*
 
-- **The Uninportance of the Joneses**: Other than when I was 8 and my parents didn't let me get parachute pants like all my friends at the time, I've never really felt the urge to keep up with the Joneses. In fact, seeing the behavior was rather repulsing to me. The important things to me are family, friendship, love, trust, learning, fun, art, and so on. That's what I care about: the good stuff that you can never put a price on. I couldn't care any less about being seen somehwere, in some particular car, in some particular outfit, with some group of people. While it undoubtedly took a bit of time after the parachute pants fiasco to feel this way, nowadays I just don't care much about how I appear to others. 
+    In my humble opion, most of the themes in the Hugo theme library are pretty slick, to the point where deciding on which theme go to with has always been a difficult decision. 
 
-- Speaking of particular outfits - not caring about fashion makes it really easy to get a *ton* of miles and value out of items of clothes. Ollie holes in my Chucks, rips in my jeans, etc--easily patchable, or apparel wounds of glory. One might even call my anti-fashion stance and well-worn clothes as 'punk'. While I'm spiritually a punk, I've never wrapped myself up in the fashion of punk. But you know what annoyed me more than anything? When retailers like Hot Topic started selling jeans with *pre-made* holes in them. How pathetic and backwards, on both sides of the coin. Or like when Nirvana made old flannel shirts popular: What they were doing was very much **not** keeping up with the Joneses, but what happened afterward was that a bunch of kids bought new, overpriced flannel shirts that hit the market as a result of Nirvana. When punk gets bottled up onto a Hot Topic shelf, it's no longer punk, kids. 
+- **Customization**: While I've been leaning on themes so far, it's been easy to learn the Hugo framework, and with that I can see a clearer path forward if I wish to take my Hugo development to the next step. 
 
-- **Ethics**: In case you haven't noticed, [the world is burning](https://www.theguardian.com/environment/2026/feb/11/point-of-no-return-hothouse-earth-global-heating-climate-tipping-points "link to a Guardian article on the global warming tipping point"). Managers of capitalists systems simply don't care about the future of humanity or lots of other life on this planet, and are going to ride that inferno until the end. As consumers (or anti-consumers!), we have a say in the trajectory of this seemingly unavoidable peril. While it's true that the biggest changes that can be made to address this issue are in the realms of national law, and industrial regulation, there are things that us tiny people can do that can make an impact. Some examples: 
-    - *rejection of fast fashion, mending*
-    - *holiday present truces*
-    - *using more public transportation*
-    - *biycles*
-    - *political involvement*
-    - 
+    One customization I made today was not to my theme, with the Front Matter extension. This essentially acts as CMS right within Visual Studio Code, but at least with this initial review, i'm not too sure it's going to save me a bunch of time. It does have a nice server preview feature that I'm going to see if I can set up on a split panel view- will let you know how that goes, and if I see more value from it than just having http://localhost:1313 open on my browser. 
 
+    Another nice feature of the Front Matter extension is some rudimentary SEO data to aid you in forming posts, as well as an option to commit straight from within the extension. Again, not the biggest help in the world, but nice to know it's there if you prefer to keep as much to one tab as possible. 

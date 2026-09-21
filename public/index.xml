@@ -6,8 +6,22 @@
     <description>Recent content in Home on foley.works</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Hugo the Static Site Generator</title>
+      <link>http://localhost:1313/hugo-static-site-generator/</link>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-static-site-generator/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/hugo-logo.png&#34; alt=&#34;Diagram&#34; class=&#34;no-radius&#34; width=&#34;400&#34; height=&#34;400&#34;&gt;&#xA;&lt;h2 id=&#34;my-first-experiences-with-hugo-static-site-generator&#34;&gt;My First Experiences with Hugo Static Site Generator&lt;/h2&gt;&#xA;&lt;p&gt;I learned about &lt;a href=&#34;https://gohugo.io&#34; title=&#34;link to the official Hugo website&#34;&gt;Hugo&lt;/a&gt; and what a static site was from the fine folks on Mastodon after inquiring about options post-Wordpress. I&amp;rsquo;m sure I went to the previously linked website and saw this, their tagline:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;The world’s fastest framework for building websites&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;I remember thinking, hm, I can get a Wordpress website up pretty quickly. Certainly quicker than the time it took me to get my first Hugo site (this one) up and running.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stop Shopping</title>
+      <link>http://localhost:1313/stop-shopping/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/stop-shopping/</guid>
+      <description>&lt;p&gt;I learned of the legend of &lt;a href=&#34;https://revbilly.com&#34; title=&#34;link to Reverend Billy website&#34;&gt;Reverend Billy and the Church of Stop Shopping&lt;/a&gt;  on one of my first trip to Burning Man, and I instantly knew that this was the &amp;lsquo;congregation&amp;rsquo; for me. But I always wondered why, out of all of my friends, it was only me who felt this appeal to &lt;a href=&#34;https://en.wikipedia.org/wiki/Reverend_Billy_and_the_Church_of_Stop_Shopping&#34; title=&#34;link to Reverend Billy wikipedia page&#34;&gt;the message&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/revbilly.jpg&#34; alt=&#34;Reverend Billy&#34;&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Upbringing&lt;/strong&gt;: I was raised in a &lt;em&gt;very&lt;/em&gt; Irish Catholic home. Like, go to every mass during Holy Week type of Irish Cahtolics. Anyway, my mom detested the consumerism that came along with Christmas, and over the years, that definitely trickled down to me. And perhaps it was from her being raised at just after the great depression, but Along with that, she also was someone who hated to waste things. In our family, we stopped using things because they were no longer useful, not becasue they fell out of style. That wasn&amp;rsquo;t the easiest growing up, but looking back, I&amp;rsquo;m very glad I was brought up that way.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Wheel it up and Make it Glow</title>
       <link>http://localhost:1313/wheel-it-up-make-it-glow/</link>

@@ -1,10 +1,12 @@
 ---
-title: "20th Annual Thirsty Holiday Sale"
+title: 20th Annual Thirsty Holiday Sale
 date: 2024-12-09
-description: "One of my favorite (and nowadays, only) DJ gigs- the Thirsty Holiday Sale. This one is the 20th!"
-image: "/images/thirsty-holiday-sale.jpg"
-type: "post"
-tags: ["blog"]
+description: One of my favorite (and nowadays, only) DJ gigs- the Thirsty Holiday Sale. This one is the 20th!
+image: /images/thirsty-holiday-sale.jpg
+type: post
+tags:
+    - blog
+    - Providence
 url: /20th-annual-thirsty-holiday-sale
 ---
 
