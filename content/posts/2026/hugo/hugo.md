@@ -27,7 +27,7 @@ I learned about the open source framework [Hugo](https://gohugo.io "link to the 
 
 I remember thinking, hm, I can get a Wordpress website up pretty quickly. Certainly quicker than the time it took me to get my first Hugo site (this one) up and running. 
 
-<img src="/images/hm.png" alt="bagel boy character saying 'hm'">
+<img src="/images/hm.png" alt="bagel boy character saying 'hm'" class="no-radius">
 
 
 But with the bumps and bruises of getting this site up, I developed a certain level of comfort and familiarity with the installation process, file structure, and so on. That lead to my [second Hugo site](https://foleystoneworks.com "link to the Foley Stoneworks website") being completed in a night. While just starter theme that I've yet to customze, the third Hugo site I made was up on the web in a few hours. 
