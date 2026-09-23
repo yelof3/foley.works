@@ -1,10 +1,18 @@
 ---
-title: "The Small Web"
+title: The Small Web
 date: 2025-11-19
-description: "I was welcomed to the 'small web' recently, which felt nice and led to some thoughts."
-type: "post"
-tags: ["blog","small web","hugo","gokarna","fediverse","blogging"]
+description: I was welcomed to the 'small web' recently, which felt nice and led to some thoughts.
+type: post
+tags:
+    - blog
+    - small web
+    - hugo
+    - gokarna
+    - fediverse
+    - blogging
 url: /small-web
+keywords:
+    - small web
 ---
 
 As mentioned in my [about](https://foley.works/about/ "link to about page") page, this site was born from the ashes of my Wordpress website. I've been slowly editing it and adding additional content over the last six months or so, and it's been a joy.

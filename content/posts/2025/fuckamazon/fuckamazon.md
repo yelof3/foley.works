@@ -1,11 +1,16 @@
 ---
-title: "Fuck Amazon"
+title: Fuck Amazon
 date: 2025-03-19
-description: "Fuck Amazon. Seriously. If you must buy something online, buy it elsewhere. It's really quite easy to do!"
-image: "/images/fuckamazon.jpg"
-type: "post"
-tags: ["blog","fuck amazon","amazon"]
+description: Fuck Amazon. Seriously. If you must buy something online, buy it elsewhere. It's really quite easy to do!
+image: /images/fuckamazon.jpg
+type: post
+tags:
+    - blog
+    - fuck amazon
+    - amazon
 url: /fuck-amazon
+keywords:
+    - fuck amazon
 ---
 
 Fuck Amazon. Seriously. But more specifically, fuck Jeff Bezos. 

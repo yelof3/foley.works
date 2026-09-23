@@ -1,12 +1,19 @@
 ---
-title: "Stop Shopping"
+title: Stop Shopping
 date: 2026-07-21
-description: "Stop shopping. Avoid the Shopocalypse. Changealujah!"
-image: "/images/revbilly.jpg"
-type: "post"
-tags: ["capitalism","consumerism", "blog"]
+description: Stop shopping. Avoid the Shopocalypse. Changealujah!
+image: /images/revbilly.jpg
+type: post
+tags:
+    - capitalism
+    - consumerism
+    - blog
 url: /stop-shopping
 draft: true
+keywords:
+    - reverend billy
+    - stop shopping
+    - church of stop shopping
 ---
 
 I learned of the legend of [Reverend Billy and the Church of Stop Shopping](https://revbilly.com "link to Reverend Billy website")  on one of my first trip to Burning Man, and I instantly knew that this was the 'congregation' for me. But I always wondered why, out of all of my friends, it was only me who felt this appeal to [the message](https://en.wikipedia.org/wiki/Reverend_Billy_and_the_Church_of_Stop_Shopping "link to Reverend Billy wikipedia page"). 
