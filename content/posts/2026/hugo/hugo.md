@@ -55,3 +55,7 @@ Here's what I love about building static websites. I just so happened to have en
     Another nice feature of the Front Matter extension is some rudimentary SEO data to aid you in forming posts, as well as an option to commit straight from within the extension. Again, not the biggest help in the world, but nice to know it's there if you prefer to keep as much to one tab as possible. 
 
 - **Security**: Static websites, by nature, are much more secure than a dynamic website like Wordpress websites. HTTP request out, HTTP response back. Easy peasy. So, A static site avoids several levels found in Wordpress sites that can introduce vulnerability: PHP, any plugins uploaded to the property, and server-side processing, to name a few. 
+
+
+
+

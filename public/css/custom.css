@@ -87,3 +87,89 @@ li{
 a {
     color: #958ba0;
 }
+
+/* Last.fm — Gokarna */
+
+.lastfm-widget {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 500px;
+  margin: 1.5rem 0;
+}
+
+.lastfm-widget__art {
+  flex: 0 0 80px;
+}
+
+.lastfm-widget__art img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.lastfm-widget__info {
+  min-width: 0;
+}
+
+.lastfm-widget__label {
+  margin-bottom: 0.25rem;
+  color: #6666ff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.lastfm-widget__track {
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lastfm-widget__artist {
+  margin-top: 0.2rem;
+  overflow: hidden;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  opacity: 0.65;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .lastfm-widget__art {
+    flex-basis: 64px;
+  }
+
+  .lastfm-widget__art img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .lastfm-widget__track {
+    font-size: 0.95rem;
+  }
+}
+
+.lastfm-home {
+  width: 100%;
+  text-align: center;
+  margin: 1.5rem 0 2rem;
+}
+
+.lastfm-home .lastfm-widget {
+  display: inline-flex;
+  width: auto;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
