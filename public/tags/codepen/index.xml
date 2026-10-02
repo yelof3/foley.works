@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codepen on foley.works</title>
+    <link>http://localhost:1313/tags/codepen/</link>
+    <description>Recent content in Codepen on foley.works</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/codepen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Genuary 2023</title>
+      <link>http://localhost:1313/genuary-2023/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/genuary-2023/</guid>
+      <description>&lt;p&gt;After some indirect encouragement from some folks on my Mastodon instance, I’ve decided to try my hand at Genuary! Each day of the month has a theme, and they were a lot of fun to contemplate and attempt.&lt;/p&gt;&#xA;&lt;p&gt;Compared to many, my love affair with code is rather young, so don’t expect to be blown away by any of these outputs below. But rest assured knowing I had lots of fun creating them.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
