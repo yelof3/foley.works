@@ -90,7 +90,7 @@
       <link>http://localhost:1313/genuary-2023/</link>
       <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/genuary-2023/</guid>
-      <description>&lt;p&gt;After some indirect encouragement from some folks on my Mastodon instance, I’ve decided to try my hand at Genuary! Each day of the month has a theme, which I’ve notated next to each header.&lt;/p&gt;&#xA;&lt;p&gt;Compared to many, my love affair with code is rather young, so don’t expect to be blown away by any of these outputs. But rest assured knowing I had lots of fun creating them (and that I won’t be finishing every one)!&lt;/p&gt;</description>
+      <description>&lt;p&gt;After some indirect encouragement from some folks on my Mastodon instance, I’ve decided to try my hand at Genuary! Each day of the month has a theme, and they were a lot of fun to contemplate and attempt.&lt;/p&gt;&#xA;&lt;p&gt;Compared to many, my love affair with code is rather young, so don’t expect to be blown away by any of these outputs below. But rest assured knowing I had lots of fun creating them. This post on my previous site had a nice handy widget where I listed all &lt;a href=&#34;https://genuary.art/2023/prompts&#34; title=&#34;Link to Genuary 2023 prompts&#34;&gt;all 30 days&lt;/a&gt;, but I couldn&amp;rsquo;t get that done here, so here are some Codepen embeds instead.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

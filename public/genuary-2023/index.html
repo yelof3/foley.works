@@ -225,18 +225,18 @@
 
     <div class="post-content">
         <p>After some indirect encouragement from some folks on my Mastodon instance, I’ve decided to try my hand at Genuary! Each day of the month has a theme, and they were a lot of fun to contemplate and attempt.</p>
-<p>Compared to many, my love affair with code is rather young, so don’t expect to be blown away by any of these outputs below. But rest assured knowing I had lots of fun creating them. This post on my previous site had a nice handy widget where I listed all 30 days, but I couldn&rsquo;t get that done here, so here are some Codepen embeds instead.</p>
+<p>Compared to many, my love affair with code is rather young, so don’t expect to be blown away by any of these outputs below. But rest assured knowing I had lots of fun creating them. This post on my previous site had a nice handy widget where I listed all <a href="https://genuary.art/2023/prompts" title="Link to Genuary 2023 prompts">all 30 days</a>, but I couldn&rsquo;t get that done here, so here are some Codepen embeds instead.</p>
 <p>I hope to get better at creative coding.
 <br>
 <br></p>
 <p>
 <figure class="hugo-shortcodes-codepen">
     <p class="codepen" data-height="300" data-theme-id="default" data-default-tab="result" data-slug-hash="zYLNEVL" data-user="yelof" style="ZgotmplZ">
-        <span>See the Pen <a href="https://codepen.io/yelof/pen/zYLNEVL">Theme: Sample a cooler palette from your favourite movie/album cover. I chose the cover to Zony Mash&#39;s &#39;Brand Spankin&#39; New.&#39;</a> by (<a href="https://codepen.io/yelof">@yelof</a>)
+        <span>See the Pen <a href="https://codepen.io/yelof/pen/zYLNEVL">Theme: Sample a cooler palette from your favourite movie/album cover. I chose the cover to Zony Mash&#39;s &#39;Brand Spankin&#39; New. Give it some clicks.&#39;</a> by (<a href="https://codepen.io/yelof">@yelof</a>)
         on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
     <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-    <figcaption>Theme: Sample a cooler palette from your favourite movie/album cover. I chose the cover to Zony Mash&#39;s &#39;Brand Spankin&#39; New.&#39;</figcaption>
+    <figcaption>Theme: Sample a cooler palette from your favourite movie/album cover. I chose the cover to Zony Mash&#39;s &#39;Brand Spankin&#39; New. Give it some clicks.&#39;</figcaption>
 </figure>
 
 <br>
@@ -271,7 +271,17 @@
     <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
     <figcaption>Theme: Glitch Art. This is my version of glitch art: Glitch Hedberg</figcaption>
 </figure>
-</p>
+
+<br></p>
+<p><audio controls preload="auto">
+
+    <source src="">
+
+</audio>
+
+
+<br>
+Theme: Generative Music. This is a little ditty I did in Supercollider.</p>
 
         
     </div>
@@ -311,6 +321,31 @@
 
     
 
+
+
+
+    <link rel="stylesheet" href="/css/plyr.scss">
+
+    <script src="/js/plyr.polyfilled.js" crossorigin="anonymous"></script>
+    <script>
+      (function() {
+        const players = Array.from(document.querySelectorAll('.player')).map(
+            p => new Plyr(p, {
+                controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'],
+                
+                
+            })
+        );
+        
+        players.forEach(function(p){
+            p.on('play', event => {
+                const instance = event.detail.plyr;
+                console.log('Stop others players');
+                players.forEach(function(p){ if(p != instance) p.stop()});
+            })
+        });
+    })();
+    </script>
 
 
 
