@@ -272,16 +272,12 @@
     <figcaption>Theme: Glitch Art. This is my version of glitch art: Glitch Hedberg</figcaption>
 </figure>
 
-<br></p>
-<p><audio controls preload="auto">
-
-    <source src="">
-
-</audio>
-
-
 <br>
-Theme: Generative Music. This is a little ditty I did in Supercollider.</p>
+<audio controls>
+<source src="/audio/SCgenuary.mp3" type="audio/mpeg">
+</audio>
+<br>
+Theme: Generative Music. This is a little ditty I did in <a href="https://supercollider.github.io" title="Link to SuperCollider website">SuperCollider</a>.</p>
 
         
     </div>
@@ -321,31 +317,6 @@ Theme: Generative Music. This is a little ditty I did in Supercollider.</p>
 
     
 
-
-
-
-    <link rel="stylesheet" href="/css/plyr.scss">
-
-    <script src="/js/plyr.polyfilled.js" crossorigin="anonymous"></script>
-    <script>
-      (function() {
-        const players = Array.from(document.querySelectorAll('.player')).map(
-            p => new Plyr(p, {
-                controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'],
-                
-                
-            })
-        );
-        
-        players.forEach(function(p){
-            p.on('play', event => {
-                const instance = event.detail.plyr;
-                console.log('Stop others players');
-                players.forEach(function(p){ if(p != instance) p.stop()});
-            })
-        });
-    })();
-    </script>
 
 
 

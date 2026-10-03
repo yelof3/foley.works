@@ -27,9 +27,10 @@ I hope to get better at creative coding.
 <br>
 {{< codepen id="wvxzBaZ" author="yelof" caption="Theme: Glitch Art. This is my version of glitch art: Glitch Hedberg">}} 
 <br>
-
-{{< audio "https://foley.works/audio/SC_1.10.23.mp3">}}
+<audio controls>
+  <source src="/audio/SCgenuary.mp3" type="audio/mpeg">
+</audio>
 <br>
-Theme: Generative Music. This is a little ditty I did in Supercollider. 
+Theme: Generative Music. This is a little ditty I did in [SuperCollider](https://supercollider.github.io "Link to SuperCollider website"). 
 
 
