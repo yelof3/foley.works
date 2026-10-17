@@ -7,6 +7,14 @@ url: "/reads"
 
 Occasionally, I'll read a book. They're mostly about modern physics, although occasionally I'll read some other types of nonfiction, and on a blue moon, even some fiction. Here's a lsit of things I've been reading over the last several years. 
 
+## On Deck
+
+- *Lee Smolin: Time Reborn*
+
+- *Walter Lippmann: Public Opinion*
+
+- *Michael Pollan: How to Change Your Mind*
+
 ## 2026
 
 - *Louisa Gilder: The Age of Entanglement*

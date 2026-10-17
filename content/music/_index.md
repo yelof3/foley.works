@@ -6,7 +6,7 @@ type: "page"
 
 I'm pretty good at mixing uinique music together, and did so for many years on public freeform radio. As a result of that, I met and became friends with a handful of amazing producers and/or label owners who gave me a shot at a remix or two, where I found out I'm definitely an amateur remixer/producer. 
 
-Here's a sample of some of my musical creations. 
+Below is a sample of some of my musical creations. To see what I've been listening to lately, [go here](https://foley.works/listening "link to listening page").
 
 ## Mixes
 [Wondermachine Wondercast 006](https://soundcloud.com/wondermachine-music/wondercast006-wanderlust-by-john-foley/ "Wondermachine Wondercast 006")

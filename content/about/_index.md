@@ -22,6 +22,6 @@ I’m the father of a kind, intelligent, funny and all around wonderful girl. I�
 
 Professionally, I work in the ever-changing digital world. I help companies maximize their digital footprint through a variety of approaches: web development, SEO, email marketing, automation, CRM engineering, digital advertising campaign creation and management, analytics, and much more.
 
-When I’m not working, I enjoy cycling, rock climbing, golf, electronics, hacking things, coding, DJing, swimming, traveling around New England, and [reading as many books on modern physics that I can get my hands on.](https://foley.works/reads "Link to reading list")
+When I’m not working, I enjoy cycling, rock climbing, golf, electronics, hacking things, coding, DJing, swimming, traveling around New England, and [reading as many books on modern physics that I can get my hands on](https://foley.works/reads "Link to reading list"). I also love digging for and collecting music. [A lot](https://foley.works/listening "link to music page").
 
 ![John Foley](/images/orangephoto.jpg)

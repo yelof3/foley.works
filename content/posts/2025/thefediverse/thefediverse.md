@@ -8,7 +8,7 @@ url: /the-fediverse
 tags: ["blog","small web","fediverse","mastodon","pixelfed"]
 ---
 
-The fediverse is a collection of community-owned, decentralized social networks that are constructed using the same ActivityPub protocol.
+The fediverse is a collection of community-owned, decentralized social networks that are constructed using the same [ActivityPub protocol](https://en.wikipedia.org/wiki/ActivityPub "Activitypub wikipedia page").
 
 It contains popular, ad free alternatives to large corporate social networks like Facebook and Twitter.
 

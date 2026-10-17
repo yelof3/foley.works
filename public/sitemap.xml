@@ -124,6 +124,8 @@
   </url><url>
     <loc>http://localhost:1313/lil-lamb/</loc>
   </url><url>
+    <loc>http://localhost:1313/listening/</loc>
+  </url><url>
     <loc>http://localhost:1313/music/</loc>
   </url><url>
     <loc>http://localhost:1313/office-led-matrix/</loc>
