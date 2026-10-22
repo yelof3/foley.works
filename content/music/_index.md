@@ -41,9 +41,6 @@ Below is a sample of some of my musical creations. To see what I've been listeni
 <br>
 <br>
 
-![Last.FM Last Played Song](https://img.shields.io/endpoint?color=blueviolet&url=https%3A%2F%2Flastfm-last-played.biancarosa.com.br%2FYeloft%2Flatest-song%3Fformat%3Dshields.io)
-
-
 
 
 

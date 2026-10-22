@@ -70,15 +70,15 @@ title = "foley.works"
   [[menu.main]]
     # Unique identifiers are required for menu entries without a name property,
     # or for menu entries which re-use a name
-    identifier = "github"
+    # identifier = "rss"
 
     # Absolute URL to external resource
-    url = "https://github.com/yelof3"
-    weight = 7
+    url = "/posts/index.xml"
+    weight = 8
     
     # Surround the menu entry (or name) with HTML content, such as Feather
     # icons: https://feathericons.com
-    #pre = "<span data-feather='github'></span>"
+    pre = "<span data-feather='rss'></span>"
     #post = ""
 
     
@@ -134,8 +134,7 @@ socialIcons = [
   {name = "soundcloud", url = "https://soundcloud.com/thefieldhouse"},
   {name = "codepen (1)", url = "https://codepen.io/yelof"},
   {name = "discogs", url = "https://www.discogs.com/artist/4131888-John-Foley-5"},
-  {name = "pixelfed", url = "https://pxlmo.com/i/web/profile/639315617087045662"},
-  {name = "rss", url = "https://foley.works/posts/index.xml"}
+  {name = "pixelfed", url = "https://pxlmo.com/i/web/profile/639315617087045662"}
 
 
 
