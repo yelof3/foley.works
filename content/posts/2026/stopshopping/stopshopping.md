@@ -57,9 +57,3 @@ In case you haven't noticed, [the world is burning](https://www.theguardian.com/
 !["Trolleys" by Banksy](/images/banksy_trolleys.jpg)
 
 May we all stop shopping and avoid consumerism. Changealujah! 
-
-<div class="video-container">
-  <video id="player" autoplay muted playsinline data-poster="/images/revbilly.jpg">
-    <source src="https://youtu.be/0IZojiQqfAA?si=QVxhfJ__nenHtPRW" type="video/mp4" />
-  </video>
-</div>
