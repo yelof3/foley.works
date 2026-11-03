@@ -23,9 +23,9 @@ I learned of [Reverend Billy and the Church of Stop Shopping](https://revbilly.c
 Here's a sample of some of their work. 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1985196052/size=large/bgcol=333333/linkcol=9a64ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://revbilly.bandcamp.com/album/the-sun-is-a-star-that-keeps-me-warm">The Sun Is a Star That Keeps Me Warm by Reverend Billy &amp; The Stop Shopping Choir</a></iframe>
 
-***Fun side note**: In fetching this embed, I realized that this particular album is co-produced, mixed, and mastered by Danny Blume, who I first learned about from [Liminal](https://dannyblume.com/liminal/ "link to Danny Blume's website page on Liminal"), which I learned about via DJ Olive (still have a Liminal CD stuck in my Numark Mixdeck, RIP). Always great to see heavies working with heavies.*
+***Fun side note**: In fetching this embed, I realized that this particular album is co-produced, mixed, and mastered by Danny Blume, who I first learned about from his [Liminal](https://dannyblume.com/liminal/ "link to Danny Blume's website page on Liminal") project, which I learned about via DJ Olive (still have a Liminal CD stuck in my Numark Mixdeck, RIP). Always great to see heavies working with heavies.*
 
-I wondered by [The church's message](https://en.wikipedia.org/wiki/Reverend_Billy_and_the_Church_of_Stop_Shopping "link to Reverend Billy wikipedia page") resonated with me so strongly compared to my friends, and I think it mostly had to do with my Mom. 
+I wondered why [the church's message](https://en.wikipedia.org/wiki/Reverend_Billy_and_the_Church_of_Stop_Shopping "link to Reverend Billy wikipedia page") resonated with me so strongly compared to my friends, and I think it mostly had to do with my Mom. 
 
 ## Upbringing
 I was raised in a ***very*** Irish Catholic home. Like, go to every mass during Holy Week type of Irish Catholics. She made my and my siblings pray in front of the manager before we were able to open any presents. Along with that, my mom detested the consumerism that came along with Christmas--to her, all the presents nonsense got in the way of the real meaning of the occasion, and over the years, that definitely trickled down to me. 
@@ -41,7 +41,11 @@ Speaking of particular outfits - not caring about fashion makes it really easy t
 
 ## Environmentalism
 Environmentalism is another big reason why the church's message hit home so directly with me. 
-In case you haven't noticed, [the world is burning](https://www.theguardian.com/environment/2026/feb/11/point-of-no-return-hothouse-earth-global-heating-climate-tipping-points "link to a Guardian article on the global warming tipping point"). Managers of capitalists systems simply don't care about the future of humanity or lots of other life on this planet, and are going to ride that inferno until the end. As consumers (or anti-consumers!), we do have at least some say in the trajectory of this seemingly unavoidable peril. While it's true that the biggest changes that can be made to address this issue are in the realms of national law, and industrial regulation, there are things that us tiny people can do that can make an impact. Some examples: 
+In case you haven't noticed, [the world is burning](https://www.theguardian.com/environment/2026/feb/11/point-of-no-return-hothouse-earth-global-heating-climate-tipping-points "link to a Guardian article on the global warming tipping point"). Managers of capitalists systems simply don't care about the future of humanity or lots of other life on this planet, and are going to ride that inferno until the end. 
+
+!["Trolleys" by Banksy](/images/banksy_trolleys.jpg)
+
+As consumers (or anti-consumers!), we do have at least some say in the trajectory of this seemingly unavoidable peril. While it's true that the biggest changes that can be made to address this issue are in the realms of national law, and industrial regulation, there are things that us tiny people can do that can make an impact. Some examples: 
 
 - *rejection of fast fashion, mending*
 - *holiday present truces*
@@ -53,7 +57,5 @@ In case you haven't noticed, [the world is burning](https://www.theguardian.com/
 - *sourcing produce locally*
 - *cooking at home more*
 - *buying second hand*
-
-!["Trolleys" by Banksy](/images/banksy_trolleys.jpg)
 
 May we all stop shopping and avoid consumerism. Changealujah! 
