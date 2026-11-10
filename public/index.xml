@@ -6,8 +6,15 @@
     <description>Recent content in Home on foley.works</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 20:20:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 05:47:16 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding Codepen Pens to Hugo Posts</title>
+      <link>http://localhost:1313/codepen-on-hugo/</link>
+      <pubDate>Tue, 10 Nov 2026 05:47:16 +0000</pubDate>
+      <guid>http://localhost:1313/codepen-on-hugo/</guid>
+      <description>&lt;figure class=&#34;hugo-shortcodes-codepen&#34;&gt;&#xA;    &lt;p class=&#34;codepen&#34; data-height=&#34;400&#34; data-theme-id=&#34;default&#34; data-default-tab=&#34;result&#34; data-slug-hash=&#34;VwRvzmK&#34; data-user=&#34;yelof&#34; style=&#34;ZgotmplZ&#34;&gt;&#xA;        &lt;span&gt;See the Pen &lt;a href=&#34;https://codepen.io/yelof/pen/VwRvzmK&#34;&gt;VwRvzmK&lt;/a&gt; by (&lt;a href=&#34;https://codepen.io/yelof&#34;&gt;@yelof&lt;/a&gt;)&#xA;        on &lt;a href=&#34;https://codepen.io&#34;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;&#xA;    &lt;/p&gt;&#xA;    &lt;script async src=&#34;https://cpwebassets.codepen.io/assets/embed/ei.js&#34;&gt;&lt;/script&gt;&#xA;    &#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;codepen-on-hugo&#34;&gt;Codepen on Hugo!⤴️&lt;/h2&gt;&#xA;&lt;p&gt;When I was building my &lt;a href=&#34;https://foley.works/genuary-2023/&#34; title=&#34;link to Genuary post&#34;&gt;Genuary post&lt;/a&gt;, I was poked around for a solution to embedding some Codepen pens on the post. For some reason I had no luck on my first search, but found &lt;a href=&#34;https://isqua.github.io/hugo-shortcodes/development/codepen/&#34; title=&#34;link to Alex&amp;#39;s project page&#34;&gt;a solution from this guy Alex&lt;/a&gt; on a follow-up search. All credit to Alex for the shortcode, but figured I&amp;rsquo;d share an overview of the solution here, largely because I wanted to learn codeblocks.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Stop Shopping</title>
       <link>http://localhost:1313/stop-shopping/</link>
@@ -97,7 +104,7 @@
       <link>http://localhost:1313/genuary-2023/</link>
       <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/genuary-2023/</guid>
-      <description>&lt;p&gt;After some indirect encouragement from some folks on my Mastodon instance, I’ve decided to try my hand at Genuary! Each day of the month has a theme, and they were a lot of fun to contemplate and attempt.&lt;/p&gt;&#xA;&lt;p&gt;Compared to many, my love affair with code is rather young, so don’t expect to be blown away by any of these outputs below. But rest assured knowing I had lots of fun creating them. This post on my previous site had a nice handy widget where I listed all &lt;a href=&#34;https://genuary.art/2023/prompts&#34; title=&#34;Link to Genuary 2023 prompts&#34;&gt;all 30 days&lt;/a&gt;, but I couldn&amp;rsquo;t get that done here, so here are some Codepen embeds instead.&lt;/p&gt;</description>
+      <description>&lt;p&gt;After some indirect encouragement from some folks on my Mastodon instance, I’ve decided to try my hand at Genuary! Each day of the month has a theme, and they were a lot of fun to contemplate and attempt.&lt;/p&gt;&#xA;&lt;p&gt;Compared to many, my love affair with code is rather young, so don’t expect to be blown away by any of these outputs below, which are actually rather simple edits of existing pens I found. But rest assured knowing I had lots of fun creating these edits! This post on my previous site had a nice handy widget where I listed all &lt;a href=&#34;https://genuary.art/2023/prompts&#34; title=&#34;Link to Genuary 2023 prompts&#34;&gt;all 30 days&lt;/a&gt;, but I couldn&amp;rsquo;t get that done here, so here are some Codepen embeds instead.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>

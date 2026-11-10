@@ -13,7 +13,7 @@ url: /genuary-2023
 
 After some indirect encouragement from some folks on my Mastodon instance, I’ve decided to try my hand at Genuary! Each day of the month has a theme, and they were a lot of fun to contemplate and attempt.
 
-Compared to many, my love affair with code is rather young, so don’t expect to be blown away by any of these outputs below. But rest assured knowing I had lots of fun creating them. This post on my previous site had a nice handy widget where I listed all [all 30 days](https://genuary.art/2023/prompts "Link to Genuary 2023 prompts"), but I couldn't get that done here, so here are some Codepen embeds instead. 
+Compared to many, my love affair with code is rather young, so don’t expect to be blown away by any of these outputs below, which are actually rather simple edits of existing pens I found. But rest assured knowing I had lots of fun creating these edits! This post on my previous site had a nice handy widget where I listed all [all 30 days](https://genuary.art/2023/prompts "Link to Genuary 2023 prompts"), but I couldn't get that done here, so here are some Codepen embeds instead. 
 
 I hope to get better at creative coding. 
 <br>

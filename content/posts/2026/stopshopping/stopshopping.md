@@ -51,7 +51,6 @@ As consumers (or anti-consumers!), we do have at least some say in the trajector
 - *holiday present truces*
 - *using more public transportation*
 - *biycles* 🚲
-- *public transportation* 
 - *political involvement*
 - *avoidance of disposable/single-use plastics*
 - *sourcing produce locally*

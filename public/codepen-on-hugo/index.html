@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #6666ff;
+            --font-size: 1.1rem;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Adding Codepen Pens to Hugo Posts</title>
+    <meta name="description" content="A quick tutorial on how to display your Codepen pens on hugo posts">
+    <meta name="keywords" content='hugo, codepen, blog'>
+
+    <meta property="og:url" content="http://localhost:1313/codepen-on-hugo/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Adding Codepen Pens to Hugo Posts">
+    <meta property="og:description" content="A quick tutorial on how to display your Codepen pens on hugo posts">
+    <meta property="og:image" content="http://localhost:1313/images/movingblocks.png">
+    <meta property="og:image:secure_url" content="http://localhost:1313/images/movingblocks.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Adding Codepen Pens to Hugo Posts">
+    <meta name="twitter:description" content="A quick tutorial on how to display your Codepen pens on hugo posts">
+    <meta property="twitter:domain" content="http://localhost:1313/codepen-on-hugo/">
+    <meta property="twitter:url" content="http://localhost:1313/codepen-on-hugo/">
+    <meta name="twitter:image" content="http://localhost:1313/images/movingblocks.png">
+
+    
+    <link rel="canonical" href="http://localhost:1313/codepen-on-hugo/">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.70293498aa96b2dbb767ec11a622eb2266d8fc37a0fff88233a82952e3c72b15.js" integrity="sha256-cCk0mKqWstu3Z&#43;wRpiLrImbY/Deg//iCM6gpUuPHKxU="></script>
+
+    
+    
+
+<script type="text/javascript">
+  window.heapReadyCb=window.heapReadyCb||[],window.heap=window.heap||[],heap.load=function(e,t){window.heap.envId=e,window.heap.clientConfig=t=t||{},window.heap.clientConfig.shouldFetchServerConfig=!1;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://cdn.us.heap-api.com/config/"+e+"/heap_config.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(a,r);var n=["init","startTracking","stopTracking","track","resetIdentity","identify","getSessionId","getUserId","getIdentity","addUserProperties","addEventProperties","removeEventProperty","clearEventProperties","addAccountProperties","addAdapter","addTransformer","addTransformerFn","onReady","addPageviewProperties","removePageviewProperty","clearPageviewProperties","trackPageview"],i=function(e){return function(){var t=Array.prototype.slice.call(arguments,0);window.heapReadyCb.push({name:e,fn:function(){heap[e]&&heap[e].apply(heap,t)}})}};for(var p=0;p<n.length;p++)heap[n[p]]=i(n[p])};
+  heap.load("3635405329");
+</script>  
+</head>
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="http://localhost:1313/">
+                <img src='/images/orangephoto.jpg' alt="avatar">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="http://localhost:1313/">foley.works</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/" aria-label="" > Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/about" aria-label="" > About </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/music/" aria-label="" > Music </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/electronics/" aria-label="" > Electronics </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/posts/" aria-label="" > Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/tags/" aria-label="" > Tags/Links </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/posts/index.xml" aria-label="" ><span data-feather='rss'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/" > Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/about" > About </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/music/" > Music </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/electronics/" > Electronics </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/posts/" > Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/tags/" > Tags/Links </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/posts/index.xml" ><span data-feather='rss'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Adding Codepen Pens to Hugo Posts</h1>
+
+        
+
+        
+	
+	
+	
+	
+        
+
+	
+
+	
+
+	
+          <small role="doc-subtitle">A quick tutorial on how to display your Codepen pens on hugo posts</small>
+	
+
+	
+          <p class="post-date">
+              
+
+              November 10, 2026
+
+              
+          </p>
+	
+
+        <ul class="post-tags">
+          
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/hugo">hugo</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/codepen">codepen</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/blog">blog</a></li>
+           
+         
+        </ul>
+    </div>
+
+    <div class="post-content">
+        
+<figure class="hugo-shortcodes-codepen">
+    <p class="codepen" data-height="400" data-theme-id="default" data-default-tab="result" data-slug-hash="VwRvzmK" data-user="yelof" style="ZgotmplZ">
+        <span>See the Pen <a href="https://codepen.io/yelof/pen/VwRvzmK">VwRvzmK</a> by (<a href="https://codepen.io/yelof">@yelof</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    
+</figure>
+
+<h2 id="codepen-on-hugo">Codepen on Hugo!⤴️</h2>
+<p>When I was building my <a href="https://foley.works/genuary-2023/" title="link to Genuary post">Genuary post</a>, I was poked around for a solution to embedding some Codepen pens on the post. For some reason I had no luck on my first search, but found <a href="https://isqua.github.io/hugo-shortcodes/development/codepen/" title="link to Alex&#39;s project page">a solution from this guy Alex</a> on a follow-up search. All credit to Alex for the shortcode, but figured I&rsquo;d share an overview of the solution here, largely because I wanted to learn codeblocks.</p>
+<h3 id="steps-for-placing-your-codepen-on-hugo">Steps for Placing Your Codepen on Hugo</h3>
+<ol>
+<li>
+<p>Download <a href="https://raw.githubusercontent.com/isqua/hugo-shortcodes/main/themes/hugo-shortcodes/layouts/shortcodes/codepen.html" title="Link to shortcode file">shortcode file</a></p>
+</li>
+<li>
+<p>Add file to your layouts/shortcodes folder</p>
+</li>
+<li>
+<p>Use this in your posts:</p>
+<pre tabindex="0"><code class="language-shortcode" data-lang="shortcode">{{&lt;codepen id=&#34;{{your-codepen-pen-ID}}&#34; author=&#34;{{your-codepen-ID}}&#34;&gt;}}
+</code></pre><p>where {{your-codepen-pen-ID}} is the ID of your Codepen pen, and where {{your-codepen-ID}} is your actual Codepen account ID.</p>
+<p>You can also go with a more maximal version:</p>
+<pre tabindex="0"><code class="language-shortcode" data-lang="shortcode">{{&lt;codepen id=&#34;{{your-codepen-pen-ID}}&#34;
+author=&#34;{{your-codepen-ID}}&#34;
+caption=&#34;Sample caption&#34;
+title=&#34;Sample Title&#34;
+height=&#34;400&#34;
+theme=&#34;light&#34;
+tab=&#34;html,result&#34;&gt;}}
+</code></pre></li>
+<li>
+<p>Publish your post and see your pen in your post!</p>
+</li>
+</ol>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+            
+                <nav aria-label="Post navigation" class="post-navigation">
+    
+    <div class="prev-post">
+        <p>
+            <a href="/stop-shopping/">
+                &#8592;
+                Previous:
+                Stop Shopping
+            </a>
+        </p>
+        <p class="prev-post-date">
+            October 31, 2026
+        </p>
+    </div>
+    
+
+    
+</nav>
+
+            
+        
+    </div>
+
+    
+    
+    
+</div>
+
+
+
+    
+
+
+
+
+
+        </main><footer class="footer">
+    
+    
+
+    
+
+    
+
+    
+     <span>
+        Made with &#9749;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>
