@@ -42,6 +42,12 @@ With the help of some good friends, Pixel Lamb production commenced in May of 20
 
 The final design allowed for a full waterproofing, easy repair, and the ability to easily make a second side if desired. We found a sturdy wheeled cart to hang the Pixel Lamb from with 1/8″ aircraft cable, which, along with a portable battery, allowed for us to move the Lamb around the fair.
 
+I also owe a big thanks to the [Pixelblaze community](https://forum.electromage.com "link to Pixelblaze/Electromage forum") for help along the way with LED mapping. [Jason Coon](https://www.evilgeniuslabs.org "link to Jason Coon's website"), [The Wizard](https://electromage.com "link to Electromage website"), and others--thank you so much for your friendliness and willingness to help a total stranger in a mild panic.
+
+Here's Jason, christening the Pixel Lamb with it's alternate name: the Hypno-Sheep!
+{{< toot instance="hachyderm.io" id="111111120196205863" >}}
+
+
 Overall, what an event! It was great to experience Wooly Fair this year from the artist side, rather than the management side. But the best part about this year was I was able to participate and build with my daughter.
 
 Read more about Wooly Fair over at [Motif](https://motifri.com/the-big-deal-the-return-of-wooly-fair-do-you-wanna-do-something-weird/ "Motif article on Wooly Fair").
