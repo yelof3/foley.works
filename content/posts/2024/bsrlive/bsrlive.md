@@ -18,6 +18,7 @@ With bittersweet emotions, after 12 years of DJing/programming, I recently left 
 
 The BSR that I joined in 2010 was a freeform radio force to be reckoned with. We had a full 7-day schedule with a truly diverse collection of shows: K-pop, film music, experimental, an Atheism show, psychedelic folk, new classical, live electronic mix shows, a show about local Providence music, punk..the list goes on.
 
+## Community at BSR Live
 While the diversity of programming was top notch, what really made those first several years of my BSR experience so amazing was a true community vibe: the ability of the students to work alongside their community member peers to accomplish real, significant change in the station.
 
 ![bsr-live](/images/bsrlive-square.jpg)
@@ -34,6 +35,10 @@ On top of that, there’s been a trend towards more popular music in the program
 
 There were numerous other reasons why it was clear my time at BSR was over, but the reduction in student/community collaboration and the trend towards popular music were definitely high on the list.
 
+## Good Memories
+I have so many good memories and lasting friendships that resulted from volunteering at BSR Live over the years. I'll have to scrape an old drive for some better images, but here are a few to get started. 
+
+![bsr-live](/images/greg-stairs-closeup.jpg)
 
 
 

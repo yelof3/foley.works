@@ -18,6 +18,8 @@ keywords:
 As mentioned in my [about](https://foley.works/about/ "link to about page") page, this site was born from the ashes of my Wordpress website. I've been slowly editing it and adding additional content over the last six months or so, and it's been a joy.
 
 After a few weeks under the belt, I felt confident enough in the build to share the news of the new static site on my Mastodon account. Someone replied with "welcome to the small web", and I've thought about that greeting on multiple occasions. Not so much the greeting, but the term, 'small web'. Sounded like a nice place to be! 
+{{< toot instance="hachyderm.io" id="115229383647910763" >}}
+
 
 ## What is the Small Web? 
 I had to look into the term, and found that it describes (for the most part) small, noncommercial, personal static websites that harken back to the earlier days of the internet. Now we're really talking! [This post](https://benhoyt.com/writings/the-small-web-is-beautiful/ "link to post by Ben Hoyt on the small web") from 2021 by Ben Hoyt is often linked to when talking about the meaning of 'the small web', and for good reason. The summary of the post, from Ben:
