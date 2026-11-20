@@ -1,5 +1,5 @@
 ---
-title: The Small Web
+title: The Small Web (and What It Means to Me)
 date: 2025-11-19
 description: I was welcomed to the 'small web' recently, which felt nice and led to some thoughts.
 type: post
@@ -15,9 +15,9 @@ keywords:
     - small web
 ---
 
-As I detailed in my [about](https://foley.works/about/ "link to about page") page, this site was born from the ashes of my Wordpress website. I've been slowly editing it and adding additional content over the last six months or so, and it's been a joy.
+As I detailed in my [about](https://foley.works/about/ "link to about page") page, this static site was born from the ashes of my Wordpress website. I've been slowly editing it and adding additional content over the last six months or so, and it's been a joy.
 
-After a few weeks under the belt, I felt confident enough in the build to share the news of the new static site on my [Mastodon account](https://hachyderm.io/@yelof "link to my Mastodon account"). Someone replied with "welcome to the small web", and I've thought about that greeting on multiple occasions. Not so much the greeting, but the term, 'small web'. Sounded like a nice place to be! 
+After a few weeks under the belt, I felt confident enough in the build to share the news of the new static site on my [Mastodon account](https://hachyderm.io/@yelof "link to my Mastodon account"). Someone replied with "welcome to the small web", and I've thought about that greeting on multiple occasions. Not so much the kind greeting, but the term, 'small web'. Sounded like a nice place to be! 
 {{< toot instance="hachyderm.io" id="115229383647910763" >}}
 
 
@@ -26,19 +26,25 @@ I had to look into the term, and found that it describes (for the most part) sma
 > *I believe that small websites are compelling aesthetically, but are also important to help us resist selling our souls to large tech companies. In this essay I present a vision for the “small web” as well as the small software and architectures that power it. Also, a bonus rant about microservices.*
 
 ## What the Small Web Means to Me
-When I first started accessing the internet, circa 1994, it was open but pretty small, and wild wild west-y. It had yet to be vastly consumerized, and unless you had the chops, it was rather difficult to create a website and put it live on the internet. I certainly didn't have the chops back then. 
+When I first started accessing the internet, circa 1994, it was wide [open](https://movementforanopenweb.com "link to Movement for an Open Web website") but pretty small, and very wild wild west-y. It had yet to be vastly consumerized, and unless you had the chops, it was rather difficult to create a website and put it live on the internet. I certainly didn't have the chops back then. 
 
-Blogging platforms and social media networks came along and allowed people with no coding experience, like me at the time, to publish things on the internet. I never joined the Myspace platform (but I did have a Friendster account, to keep in touch with Burner friends!), but I did create a blog to showcase some of the weird and creative music I listen to. I met friends across the globe from that blog, some of whom I still keep in touch with to this day. 
+### *Blogging*
+Blogging platforms and social media networks came along and allowed people with no coding experience, like me at the time, to publish things on the internet. I never joined the Myspace platform (I did have a tribe.net account, to keep in touch with Burning Man friends), but I did create a blog to showcase some of the weird and creative music I listen to. I met friends across the globe from that blog, some of whom I still keep in touch with to this day. 
 
 I happened upon a [blog by Dj/Rupture](https://www.negrophonic.com "link to DJ/Rupture's blog"), and saw that he had a friends/links section with links to his friends' and colleagues' website or blog links. They also maintained links sections, and they all frequently referred to each other and linked to each other's content. Inspired, I started linking to blogs, websites, and artists who's work I loved. 
 
 The essence of those connections is a big part of my personal concept of the 'small web'. 
 
-Now you may be saying "Hey John, blogging platforms aren't part of the small web", and I guess I'd agree with you. But back then, Blogspot and Friendster weren't the massive, evil doing comapnies that currently dominate the social landscape. So, another big part of my idea of the small web are all of the social media platforms that comprise the fediverse, which you can learn a bit about [here](https://foley.works/the-fediverse/ "link to blog post about the fediverse"). 
-
 Sadly, many of those bloggers reduced their posting frequency over time as the frequency of their tweets and social media posts increased. I did the same thing, and wish that we all maintained our own special place on the internet, whether that be a blog, or a small website. And I wish that we all thoughtfully linked to each other's spots on the web. 
 
-It bothers me that we've ended up in a world where most of the creation and sharing of content (not to mention personal data) happens under the umbrella of an utterly massive, provenly nefarious tech company. It seems like it'll be quite unlikely to happen, but this doesn't have to be the case, and there is a possible future where it isn't.
+Now you may be saying "Hey John, blogging platforms aren't part of the small web", and I guess I'd agree with you. But Blogspot and tribe.net weren't the massive, evil doing comapnies that currently dominate the social landscape. They weren't focused on sales, or data capture (as far as I know), or siloing folks under their ecosystem. 
+
+### *The Fediverse*
+Similarly to those blogs, another big part of my idea of the small web are all of the social media networks that comprise the fediverse. These are social platforms that aren't owned by companies, and are set up and managed by regular folk like you and I. They're filled with amazing people from all over the world, and have no ads and no algorithms. They're pretty neat.  You can learn a bit about the Fediverse [here](https://foley.works/the-fediverse/ "link to blog post about the fediverse"). 
+
+It bothers me that we've ended up in a world where most of the creation and sharing of content (not to mention personal data) happens under the umbrella of a few utterly massive, provenly nefarious tech companies. 
+
+This doesn't have to be the case, and there is a possible future where it isn't. It won't be easy for us to get there, but it's possible. 
 
 ## Hurdles of Joining the Small Web
 Why don't more people join this 'small web' Shangri La? I see a few major hurdles preventing that from happening. 
@@ -52,7 +58,7 @@ On the social media side of things, it *is* a bit easier to conceptualize and jo
 It's tough spreading the word about small web alternatives without a marketing budget! Often times these alternatives are non-profit organizations or otherwise collections of regular folk joining together to build a great platform. So the marketing dollars are slim to none, and of course that's tough to bring to an advertising marketplace where Facebook/Meta, for example, is spending billions annually on advertising. 
 
 ### *Apathy*
-I'll be the first to admit, this little passion of mine is 'a weird hill to die on'. Most people, including all of my local friends, really don't care about distancing themselves from tech giants. Nor do they care about static websites. I bet they think I'm at best weird, and at worst anti-social for caring about these things. And I may be, considering I'm standing on this hill alone, at least among my local friends.
+I'll be the first to admit, this little passion of mine is 'a weird hill to die on'. Most people, including all of my local friends, really don't care about distancing themselves from tech giants. And I'm not blaming them- these platforms do the trick for them, and it's where people are. Nor do they care about static websites. I bet they think I'm at best weird, and at worst anti-social for caring about these things. 
 
 There's also apathy with younger internet users. When I talk to my daughter about having her own, non tech giant place on the web for herself, she looks at my like I have three heads. My guess is that I'd likely get the same reaction from anyone under 45. 
 
