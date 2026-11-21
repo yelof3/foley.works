@@ -15,9 +15,9 @@ keywords:
     - hugo
 ---
 
+## Codepen on Hugo!⬇️ 
 {{< codepen id="VwRvzmK" author="yelof" height="400">}}
 
-## Codepen on Hugo!⤴️
 When I was building my [Genuary post](https://foley.works/genuary-2023/ "link to Genuary post"), I was poked around for a solution to embedding some Codepen pens on the post. For some reason I had no luck on my first search, but found [a solution from this guy Alex](https://isqua.github.io/hugo-shortcodes/development/codepen/ "link to Alex's project page") on a follow-up search. All credit to Alex for the shortcode, but figured I'd share an overview of the solution here, largely because I wanted to learn codeblocks. 
 
 ### Steps for Placing Your Codepen on Hugo
